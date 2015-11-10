@@ -77,9 +77,7 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+   The course is for students taking the London Intercollegiate Postgraduate Course in Elementary Particle Physics.
 </p>
 
 <!--
@@ -107,10 +105,11 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   Modify the block below if there are any special requirements.
 -->
 <p>
-  <strong>Requirements:</strong> Participants must bring a laptop with
+  <strong>Requirements:</strong> Participants should bring a laptop with
   a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
+  <a href="#setup">below</a>).
+  Alternatively they should ensure they can log in via SSH to a Linux system with those packages installed.
+  They are also required to abide by Software Carpentry's
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
@@ -141,29 +140,34 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
   to match your plans.  You may also want to change 'Day 1' and 'Day
   2' to be actual dates or days of the week.
 -->
-<h2>Schedule</h2>
+<h2>Provisional schedule</h2>
 
-<div class="row">
-  <div class="col-md-6">
+<div class="row-fluid">
+  <div class="span6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>09:30</td> <td>Arrival and set-up</td> </tr>
+      <tr> <td>10:00</td> <td><a href="novice/git/index.html">Version control with Git</a></td> </tr>
+      <tr> <td><em>11:15</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>11:30</td> <td>More version control with Git</td> </tr>
+      <tr> <td>12:45</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:30</td> <td>Collaboration with GitHub</td> </tr>
+      <tr> <td><em>15:00</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>15:20</td> <td>More collaboration with GitHub</td> </tr>
+      <tr> <td>16:45</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
-  <div class="col-md-6">
+  <div class="span6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>10:00</td> <td><a href="extras/hep/">Building programs with Python and PyROOT</a></td> </tr>
+      <tr> <td><em>11:15</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>11:30</td> <td>Unit testing</td> </tr>
+      <tr> <td>12:45</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:30</td> <td>Collaborative development</td> </tr>
+      <tr> <td><em>15:00</em></td> <td><em>Coffee break</em></td> </tr>
+      <tr> <td>15:20</td> <td>Collaborative development</td> </tr>
+      <tr> <td>16:30</td> <td>Wrap-up</td> </tr>
     </table>
   </div>
 </div>
@@ -211,62 +215,10 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
 -->
 <h2>Syllabus</h2>
 
-<div class="row">
-  <div class="col-md-6">
-    <h3>The Unix Shell</h3>
-    <ul>
-      <li>Files and directories</li>
-      <li>History and tab completion</li>
-      <li>Pipes and redirection</li>
-      <li>Looping over files</li>
-      <li>Creating and running shell scripts</li>
-      <li>Finding things</li>
-      <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3>Programming in Python</h3>
-    <ul>
-      <li>Using libraries</li>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-  <!--
-  <div class="col-md-6">
-    <h3>Programming in R</h3>
-    <ul>
-      <li>Working with vectors and data frames</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Using R from the command line</li>
-      <li><a href="{{site.swc_githubio}}/r-novice-inflammation/reference.html">Reference...</a></li>
-    </ul>
-  </div>
-  -->
-  <!--
-  <div class="col-md-6">
-    <h3>Programming in MATLAB</h3>
-    <ul>
-      <li>Working with arrays</li>
-      <li>Reading and plotting data</li>
-      <li>Creating and using functions</li>
-      <li>Loops and conditionals</li>
-      <li>Defensive programming</li>
-      <li><a href="{{site.swc_githubio}}/matlab-novice-inflammation/reference.html">Reference...</a></li>
-     </ul>
-   </div>
-   -->
-</div>
+<h2>Syllabus</h2>
 
-<div class="row">
-  <div class="col-md-6">
+<div class="row-fluid">
+  <div class="span6">
     <h3>Version Control with Git</h3>
     <ul>
       <li>Creating a repository</li>
@@ -277,21 +229,27 @@ eventbrite:       # optional (insert the alphanumeric key for Eventbrite registr
       <li>Resolving conflicts</li>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
-      <li><a href="{{site.swc_githubio}}/git-novice/reference.html">Reference...</a></li>
+      <li><a href="novice/ref/02-git.html">Git reference</a></li>
     </ul>
   </div>
-  <div class="col-md-6">
-    <h3>Managing Data with SQL</h3>
+  <div class="span6">
+    <h3>Collaboration with Git and GitHub</h3>
     <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_githubio}}/sql-novice-survey/reference.html">Reference...</a></li>
+      <li>Creating a repository</li>
+      <li>Forking and cloning repositories</li>
+      <li>Pull requests</li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>Python and PyROOT</h3>
+    <ul>
+      <li><a href="novice/ref/03-python.html">Python reference</a></li>
+    </ul>
+  </div>
+  <div class="span6">
+    <h3>Best Practices for Scientific Computing</h3>
+    <ul>
+      <li><a href="ref/journal.pbio.1001745.pdf">Paper: Best Practices for Scientific Computing</a></li>
     </ul>
   </div>
 </div>
